@@ -1,5 +1,5 @@
 package Java_Int;
-public class operatorsandnumbers {
+public class Operatorsandnumbers {
 
 	public static void main(String[] args) {
 
@@ -22,14 +22,12 @@ public class operatorsandnumbers {
 		 * 
 		 */
 
-		System.out.println("Question 1");
-		System.out.println("                             ");
-		System.out.println(Integer.toBinaryString(1));
-		System.out.println(Integer.toBinaryString(8));
-		System.out.println(Integer.toBinaryString(33));
-		System.out.println(Integer.toBinaryString(78));
-		System.out.println(Integer.toBinaryString(787));
-		System.out.println(Integer.toBinaryString(33987));
+		System.out.println("1          01");
+		System.out.println("8          1000");
+		System.out.println("33         100001");
+		System.out.println("78         1001110");
+		System.out.println("787        1100010011");
+		System.out.println("33,987     1000010011000011");
 		System.out.println("                             ");
 
 	}
@@ -44,14 +42,12 @@ public class operatorsandnumbers {
 		 * 
 		 */
 
-		System.out.println("Question 2");
-		System.out.println("                             ");
-		System.out.println(Integer.parseInt("0010", 2));
-		System.out.println(Integer.parseInt("1001", 2));
-		System.out.println(Integer.parseInt("00110100", 2));
-		System.out.println(Integer.parseInt("01110010", 2));
-		System.out.println(Integer.parseInt("001000011111" + "", 2));
-		System.out.println(Integer.parseInt("0010110001100111" + "", 2));
+		System.out.println("0010                   2");
+		System.out.println("1001                   9");
+		System.out.println("0011 0100              56");
+		System.out.println("0111 0010              114");
+		System.out.println("0010 0001 1111         129");
+		System.out.println("0010 1100 0110 0111    11,367");
 
 		System.out.println("                             ");
 

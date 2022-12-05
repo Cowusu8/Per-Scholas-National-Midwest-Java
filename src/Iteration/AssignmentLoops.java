@@ -20,7 +20,7 @@ public class AssignmentLoops {
 		for (int i = 1; i <= 12; i++) {
 			for (int r = 1; r <= 12; r++) {
 
-				System.out.printf("%4d ", i * r);
+				System.out.printf("%3d ", i * r);
 			}
 
 			System.out.println(" ");
@@ -34,16 +34,20 @@ public class AssignmentLoops {
 		 */
 		System.out.println("Question2");
 		Scanner input = new Scanner(System.in);
-		int n1, n2, gcf;
+		int n1, n2, gcd;
 
 		System.out.println("Enter two positive intergers? ");
 		n1 = input.nextInt();
 		n2 = input.nextInt();
+		gcd = 0;
 
-		for (int k = 1; k <= n1; k++) {
-			if (n1 % k == 0 && n2 % k == 0)
+		for (int k = 1; k <= n1 && k <= n2; k++) {
+			if (n1 % k == 0 && n2 % k == 0) {
+				gcd = k;
+			}
 				;
-			System.out.println(k);
+				System.out.println(gcd);
+				break;
 		}
 
 	}
