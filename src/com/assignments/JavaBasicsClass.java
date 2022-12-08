@@ -1,4 +1,4 @@
-package Java_Int;
+package com.assignments;
 /*
  * Crystal Owusu
  * Assignment: Core Java - Variables 

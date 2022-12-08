@@ -1,4 +1,4 @@
-package Java_Strings;
+package com.assignments;
 import java.util.Scanner;
 
 public class strings {

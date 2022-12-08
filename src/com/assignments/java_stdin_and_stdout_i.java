@@ -1,4 +1,4 @@
-package Hackerrank;
+package com.assignments;
 import java.util.Scanner;
 
 public class java_stdin_and_stdout_i {

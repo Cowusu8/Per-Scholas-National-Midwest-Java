@@ -1,4 +1,4 @@
-package Java_Int;
+package com.assignments;
 public class Operatorsandnumbers {
 
 	public static void main(String[] args) {
